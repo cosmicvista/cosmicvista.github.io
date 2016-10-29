@@ -45,6 +45,17 @@ You need to delete it and start over NEEDS MORE DETAIL
 Q*: What do I do if I already have a github.io with my username?*
 Create an organization and use that as your github.io NEEDS MORE DETAIL (links, etc.)
 
+
+Q* what if I cannot vagrant up without root privileges (Linux users)?
+There has been an error and you must redo part of steps 1 & 2. Delete ole--vagrant-bells.git from your home directory, uninstall vagrant and open up busy box, remove and delete all variations of ole Operating system. Make sure to purge and autoremove/autoclean (ie: sudo apt-get remove --purge _________ / sudo apt-get autoremove / sudo apt-get autoclean) before reinstalling virtualbox and vagrant. For reinstalling, use "sudo apt-get install vagrant virtualbox". Then go to the bottom part of the page on step 1 tutorial and DO NOT sudo git clone, just do:
+
+git clone https://github.com/dogi/ole--vagrant-bells.git
+cd ole--vagrant-bells/release
+vagrant up
+
+
+
+
 ## Helpful Links
 #### *GitHub and Markdown*
 [GitHub and Markdown Short Tutorials](https://guides.github.com/)
